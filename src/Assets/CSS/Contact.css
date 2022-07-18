@@ -1,0 +1,247 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-contactus{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    background-size: cover;
+}
+.contact-contactus .content-contactus{
+    max-width: 800px;
+    text-align: center;
+}
+.contact-contactus .content-contactus h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+}
+.contact-contactus .content-contactus p{
+    font-weight: 300;
+    color: white;
+}
+.container-contactus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container-contactus .contactInfo-contactus{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container-contactus .contactInfo-contactus .box-contactus{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container-contactus .contactInfo-contactus .box-contactus .icon-contactus{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container-contactus .contactInfo-contactus .box-contactus .text-contactus{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container-contactus .contactInfo-contactus .box-contactus .text-contactus h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactform-contactus{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+.contactform-contactus h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactform-contactus .inputbox-contactus{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform-contactus .inputbox-contactus input,
+.contactform-contactus .inputbox-contactus textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform-contactus .inputbox-contactus span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform-contactus .inputbox-contactus input:focus ~ span,
+.contactform-contactus .inputbox-contactus input:valid ~ span,
+.contactform-contactus .inputbox-contactus textarea:focus ~ span, 
+.contactform-contactus .inputbox-contactus textarea:valid ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.contactform-contactus .inputbox-contactus input[type="submit"]{
+    width: 100px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px){
+    .contact-contactus{
+        padding: 40px;
+    }
+    .container-contactus{
+        flex-direction: column;
+    }
+    .container-contactus .contactInfo-contactus{
+        margin-bottom: 40px;
+    }
+    .container-contactus .contactInfo-contactus,
+    .contactform-contactus{
+        width: 100%;
+    }
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contactus{
+    width: 100%;
+    height: 100vh;
+}
+.container-contactus{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20PX 100px;
+}
+.container-contactus::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/porto1.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+}
+.contactbox-contactus{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+.left-contactus{
+    height: 100%;
+    background: url(../images/porto1.jpg) no-repeat center;
+    background-size: cover;
+}
+.right-contactus{
+    padding: 25px 40px;
+}
+.right-contactus h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.right-contactus h2::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2ecc2e;
+}
+.field-contactus{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field-contactus:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.field-contactus:focus{
+    background-color: white;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+.field-area-contactus{
+    min-height: 150px;
+}
+.button-contactus{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    transition: .3s;
+}
+.button-contactus:hover{
+    background-color: #27ae60;
+}
+
+@media screen and (max-width:880px){
+    .contactbox-contactus{
+        grid-template-columns: 1fr;
+    }
+    .left-contactus{
+        height: 200px;
+    }
+}

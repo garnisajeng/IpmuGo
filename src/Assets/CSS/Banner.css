@@ -1,0 +1,39 @@
+.container-banner{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0,0.6)), url(../images/testing.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+.content-banner{
+    margin-top: 180px;
+    color: white;
+}
+.content-banner h1{
+    font-size: 60px;
+}
+.content-banner .search-box{
+    background: white;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 18px 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.content-banner .search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;
+}
+.content-banner .search-box button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+
+}
+.content-banner .search-box button img{
+    width: 22px;
+}
