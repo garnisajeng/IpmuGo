@@ -102,21 +102,7 @@ const Contentarticlelist = () => {
                 }}
               >
                 <h1 style={{ fontSize: "15px" }}>Journals</h1>
-                <div className="d-flex flex-row items-center">
-                  <input
-                    id="push-everything"
-                    name="push-notifications"
-                    type="radio"
-                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
-                  />
-                  <label
-                    for="push-everything"
-                    className="ml-5 block text-sm font-medium text-gray-700"
-                  >
-                    {" "}
-                    Everything{" "}
-                  </label>
-                </div>
+
                 <div className="d-flex flex-row items-center">
                   <input
                     id="push-everything"
@@ -147,8 +133,224 @@ const Contentarticlelist = () => {
                     className="ml-5 block text-sm font-medium text-gray-700"
                   >
                     {" "}
-                    International Journal of Power Electronics and Drive Systems
-                    (IJPEDS) (1654){" "}
+                    International Journal of Public Health Science (IJPHS) (667){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    International Journal of Evaluation and Research in
+                    Education (IJERE) (735){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Indonesian Journal of Electrical Engineering and Computer
+                    Science (2328){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Indonesian Journal of Electrical Engineering and Computer
+                    Science (2328){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    IAES International Journal of Artificial Intelligence
+                    (IJ-AI) (496){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    IAES International Journal of Robotics and Automation (IJRA)
+                    (300){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    International Journal of Reconfigurable and Embedded Systems
+                    (IJRES) (219){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    International Journal of Advances in Applied Sciences (344){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    International Journal of Informatics and Communication
+                    Technology (IJ-ICT) (228){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    International Journal of Applied Power Engineering (IJAPE)
+                    (237){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Computer Science and Information Technologies (42){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    TELKOMNIKA (Telecommunication Computing Electronics and
+                    Control) (1502){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Bulletin of Electrical Engineering and Informatics (1024){" "}
+                  </label>
+                </div>
+                <div className="d-flex flex-row items-center">
+                  <input
+                    id="push-everything"
+                    name="push-notifications"
+                    type="radio"
+                    className="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300"
+                  />
+                  <label
+                    style={{ fontSize: "12px" }}
+                    for="push-everything"
+                    className="ml-5 block text-sm font-medium text-gray-700"
+                  >
+                    {" "}
+                    Journal of Education and Learning (EduLearn) (552){" "}
                   </label>
                 </div>
               </div>
@@ -335,6 +537,92 @@ const Contentarticlelist = () => {
                       methods such as IUDs and implants need to be held to
                       increase long-term family planning acceptors so they can
                       be more optimal in spacing pregnancies at least two years.
+                    </p>
+                  </div>
+                  <div
+                    className="card"
+                    style={{
+                      boxShadow: "1px 2px 9px #b1b1b1",
+                      marginBottom: "10px",
+                      borderRadius: "15px",
+                      padding: "20px",
+                    }}
+                  >
+                    <h1 style={{ fontSize: "15px" }}>
+                      <a href="https://ipmugo.com/IJECE/article/id/12801">
+                        Analysis of the visualizing changes in radar time series
+                        using the REACTIV method through satellite imagery
+                      </a>
+                    </h1>
+                    <p class="italic text-gray-500 text-xs">
+                      {" "}
+                      Hamood Shehab Hamid, Raad Farhood Chisab,
+                    </p>
+                    <p class="text-sm py-1">
+                      International Journal of Public Health Science (IJPHS),
+                      Vol 11, No 3: September 2022
+                    </p>
+                    <p class="line-clamp-3 text-sm pt-2">
+                      A visualizing temporal stack of synthetic aperture radar
+                      (SAR) images are presented in this work, the method is
+                      called REACTIV, which enabled us to highlight color zones
+                      that have undergone change over the detected period of
+                      time. This work has been widely tested using Google Earth
+                      Engine (GEE) platform, this method depends on the
+                      hue-saturation-value (HSV) of visualizing space and
+                      supports estimation only in the time domain; the method
+                      does not support the spatial estimation. The coefficient
+                      of temporal coefficient variation is coded depending on
+                      the saturation color, of which several statistical
+                      properties are described. The limitations are studied, and
+                      some applications are implemented in this study.
+                    </p>
+                  </div>
+
+                  <div
+                    className="card"
+                    style={{
+                      boxShadow: "1px 2px 9px #b1b1b1",
+                      marginBottom: "10px",
+                      borderRadius: "15px",
+                      padding: "20px",
+                    }}
+                  >
+                    <h1 style={{ fontSize: "15px" }}>
+                      <a href="https://ipmugo.com/IJECE/article/id/12546">
+                        Spectral estimator effects on accuracy of
+                        speed-over-ground radar
+                      </a>
+                    </h1>
+                    <p class="italic text-gray-500 text-xs">
+                      {" "}
+                      Khairul Khaizi Mohd Shariff, Suraya Zainuddin, Noor
+                      Hafizah Abdul Aziz, Nur Emileen Abd Rashid, Nor Ayu Zalina
+                      Zakaria,
+                    </p>
+                    <p class="text-sm py-1">
+                      International Journal of Electrical and Computer
+                      Engineering (IJECE), Vol 12, No 4: August 2022
+                    </p>
+                    <p class="line-clamp-3 text-sm pt-2">
+                      Spectral estimation is a critical signal processing step
+                      in speed-over-ground (SoG) radar. It is argued that, for
+                      accurate speed estimation, spectral estimation should use
+                      low bias and variance estimator. However, there is no
+                      evaluation on spectral estimation techniques in terms of
+                      estimating mean Doppler frequency to date. In this paper,
+                      we evaluate two common spectral estimation techniques,
+                      namely periodogram based on Fourier transformation and the
+                      autoregressive (AR) based on burg algorithm. These
+                      spectral estimators are evaluated in terms of their bias
+                      and variance in estimating a mean frequency. For this
+                      purpose, the spectral estimators are evaluated with
+                      different Doppler signals that varied in mean frequency
+                      and signal-to-noise ratio (SNR). Results in this study
+                      indicates that the periodogram method performs well in
+                      most of the tests while the AR method did not perform as
+                      well as these but offered a slight improvement over the
+                      periodogram in terms of variance.
                     </p>
                   </div>
                 </div>
