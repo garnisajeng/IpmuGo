@@ -7,6 +7,7 @@ import DashboardUser from "./Pages/DashboardUser/Index";
 import Home from "./Pages/Home/Index";
 import LoginBx from "./Pages/LoginBx/Index";
 import Pagearticles from "./Pages/Pagearticles/Index";
+import Pagejournals from "./Pages/Pagejournals/Index";
 import Register from "./Pages/Register/Index";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
         <Route path="/login" element={<LoginBx />} exact />
         <Route path="/regis" element={<Register />} exact />
         <Route path="/dashboarduser" element={<DashboardUser />} exact />
-        <Route path="/pagejournal" element={<Pagearticles />} exact />
+        <Route path="/pagearticle" element={<Pagearticles />} exact />
+        <Route path="/pagejournal" element={<Pagejournals />} exact />
       </Routes>
     </>
   );
